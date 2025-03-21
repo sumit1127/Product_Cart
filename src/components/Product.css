@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.product_data {
+  text-align: center;
+  border: 1px solid black;
+  padding: 20px;
+}
+.product_data img {
+  width: 100px;
+  height: 100px;
+}
+
+.product_data img:hover {
+  transform: scale(1.1);
+}
+
+.title {
+  font-size: 15px;
+}
+
+.products {
+  margin: 20px;
+  padding: 0;
+  list-style-type: none;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
